@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>FON ordinacija | Offer</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/flexboxgrid.css">
+    <link rel="stylesheet" href="./css/font-awesome.css">
+    <link rel="stylesheet" href="./css/gallery.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1><span class="highlight">FON</span> Stomatološka ordinacija</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li class="current"><a href="offer.html">Offer</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="subheader">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+              <h1>Services</h1>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+      <section id="page" class="services">
+        <div class="container">
+          <div class="row center-xs center-sm center-md center-lg">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+              <h2><span class="primary-text">Glavne</span> <span class="second-text">karakteristike</span></h2>
+              <ul>
+                <li>
+                  <h3>Prijatnost & ljubaznost</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </li>
+                <li>
+                  <h3>Jedinstvene vilice</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </li>
+                <li>
+                  <h3>Novi osmeh & novi izgled</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="galerija-kontejner">
+          <div class="slideshow-container">
+            <div class="mySlides">
+              <div class="numbertext">1 / 3</div>
+              <img src="./img/zubi1.jpg" style="width:100%">
+              <div class="text"><b>Osmeh 1</b></div>
+            </div>
+            <div class="mySlides">
+              <div class="numbertext">2 / 3</div>
+              <img src="./img/zubi2.jpg" style="width:100%">
+              <div class="text"><b>Osmeh 2</b></div>
+            </div>
+            <div class="mySlides">
+              <div class="numbertext">3 / 3</div>
+              <img src="./img/zubi3.jpg" style="width:100%">
+              <div class="text"><b>Osmeh 3</b></div>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+      </div>
+  
+
+      <footer>
+        <p>Stomatološka ordinacija FON, Copyright &copy; 2020</p>
+        <p id="datum"></p>
+      </footer>
+  
+      <script src="./js/datum.js"></script>
+      <script src="./js/gallery.js"></script>
+  </body>
+</html>
